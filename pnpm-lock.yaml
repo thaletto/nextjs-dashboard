@@ -252,6 +252,12 @@ packages:
     cpu: [x64]
     os: [darwin]
 
+  '@next/swc-linux-arm64-gnu@15.0.0-canary.56':
+    resolution: {integrity: sha512-n5ZCuYt7rVFcJr8hRQDhEowZGHxs7qecizzDUgsAu/Tlfw2tpgoTN52VEozVey8JmM36iHPpnOSgn13RJsbeaQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
   '@next/swc-linux-arm64-musl@15.0.0-canary.56':
     resolution: {integrity: sha512-Of58mUgV2W63CjP+v6xYDBlTZaCb1KD0hk+LqSQ0RIKQFQIqwza58GH5vhtv8oiYSYrt/YboLDNi6UGfWrTi3g==}
     engines: {node: '>= 10'}
@@ -1299,6 +1305,9 @@ snapshots:
   '@next/swc-darwin-x64@15.0.0-canary.56':
     optional: true
 
+  '@next/swc-linux-arm64-gnu@15.0.0-canary.56':
+    optional: true
+
   '@next/swc-linux-arm64-musl@15.0.0-canary.56':
     optional: true
 
@@ -1743,6 +1752,7 @@ snapshots:
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.56
       '@next/swc-darwin-x64': 15.0.0-canary.56
+      '@next/swc-linux-arm64-gnu': 15.0.0-canary.56
       '@next/swc-linux-arm64-musl': 15.0.0-canary.56
       '@next/swc-linux-x64-gnu': 15.0.0-canary.56
       '@next/swc-linux-x64-musl': 15.0.0-canary.56
@@ -1944,6 +1954,7 @@ snapshots:
       '@img/sharp-libvips-linux-arm': 1.0.2
       '@img/sharp-libvips-linux-arm64': 1.0.2
       '@img/sharp-libvips-linux-s390x': 1.0.2
+      '@img/sharp-libvips-linux-x64': 1.0.2
       '@img/sharp-libvips-linuxmusl-arm64': 1.0.2
       '@img/sharp-libvips-linuxmusl-x64': 1.0.2
       '@img/sharp-linux-arm': 0.33.4
